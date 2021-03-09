@@ -5,6 +5,7 @@
   padding: 0 1rem;
   max-width: 71.25rem;
   width: 100%;
+  display: block;
 }
  
 * {
@@ -349,6 +350,10 @@ footer {
     margin: 0 20px 0 0;
   }
   .flex-nav ul li:nth-child(8) {
+    margin: 0;
+  }
+
+  .about-text{
     margin: 0;
   }
 }
