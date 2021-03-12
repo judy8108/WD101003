@@ -452,7 +452,7 @@ footer {
   left: -8px;
 }
 
-@media screen and (max-width: 1200px) {
+/*@media screen and (max-width: 1200px) {
   .Menu1{
     font-size: 40px;
   }
@@ -489,4 +489,4 @@ footer {
   padding-bottom:40%;
   padding-left: 20%;
  }  
-}
+}*/
