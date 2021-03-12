@@ -6,31 +6,49 @@
   <link rel="stylesheet" href="style.css" type="css/reset.css">
   <link rel="stylesheet" href="./css/productpage_1.css">
   <link rel="shortcut icon" type="image/x-icon" href="img/icon3.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous"></script>
+
 
 </head>
 <body>
+  <div><img src="img/logo.png" alt="" class="logo3" width="15%"></div>
   <!------------head---------------->
-<nav class="flex-nav">
-  <div class="container1">
-    <div class="grid menu"><!-- grid -->
-      <div class="column-3">
-        <img src="img/logo.png" alt="#" class="logo" width="120px" height="120px">
-      </div>
-      <div class="column-3">
-         <ul>
-          <li class="nav-item"><a href="latestnews.html" rel="wobble-top" class="wobble-top">最新消息</a></li>
-          <li class="nav-item"><a href="productpage_2.html" rel="wobble-top" class="wobble-top">商品</a></li>
-          <li class="nav-item"><a href="customerservice.html" rel="wobble-top" class="wobble-top">客戶服務</a></li>
-          <li class="nav-item"><a href="mappage.html" rel="wobble-top" class="wobble-top">門市資訊</a></li>
-                      <li> </li>
-          <li><a href="signin.html" rel="wobble-top" class="wobble-top"><img src="img/會員綠.png" alt="" width="20px" ></a></li>
-          <li><a href="#" rel="wobble-top" class="wobble-top"><img src="img/購物車綠.png" alt="" width="20px"></a></li>
-          <li><a href="#" rel="wobble-top" class="wobble-top"><img src="img/搜尋綠.png" alt="" width="20px"></a></li>
-        </ul>
-      </div>
-    </div>
+<div id="mimi" class="overlay">
+  <a href="#" class="closebtn" onclick="miNav()">&times;</a>
+   <div class="overlay-content">
+   
+    <a href="latestnews.html">Home</a>
+   
+    <a href="productpage_2.html">product</a>
+   
+    <a href="qa.html">customer QA</a>
+   
+    <a href="customerservice.html">message</a>
+   
+    <a href="mappage.html">門市地址</a>
+   
+    <a href="#" rel="wobble-top" class="wobble-top"><img src="img/搜尋.png" alt="" width="20px">
+    
+    <a href="signin.html" rel="wobble-top" class="wobble-top"><img src="img/會員.png" alt="" width="20px" ></a>
+    
+    <a href="#" rel="wobble-top" class="wobble-top"><img src="img/購物車.png" alt="" width="20px"></a>
   </div>
-</nav>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<script>
+
+function openNav() {
+  document.getElementById("mimi").style.width = "100%";
+}
+
+function miNav() {
+  document.getElementById("mimi").style.width = "0%";
+}
+</script>
+ 
  
 <main>
   <div class="container1">
@@ -39,8 +57,8 @@
       <div class="column12">
         <nav>
           <ol class="breadcrumb-list">
-            <li class="breadcrumb-item"><a href="latestnews.html">最新消息</a></li>
-            <li class="breadcrumb-item"><a href="productpage_2.html">商品分類</a></li>
+            <li class="breadcrumb-item"><a href="latestnews.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="productpage_2.html">commodity</a></li>
             <li class="breadcrumb-item notmove">蔬果乾</li>
           </ol>
         </nav>
@@ -50,44 +68,47 @@
 
     <div class="grid products2">
       <div class="column12">
-        <h3>蔬果乾</h3>
+        <h3 data-aos="fade-left" data-aos-duration="2000">蔬果乾</h3>
       </div>
-      <div class="column12 column-1">
-        <a href="productpage_3.html"><img src="https://image.freepik.com/free-photo/slices-dried-apples_178771-263.jpg"></a>
+      <div class="column12 column-1" data-aos="fade-left" data-aos-duration="2000">
+        <a href="productpage_3.html" rel="float-shadow" class="button float-shadow"><img src="https://image.freepik.com/free-photo/slices-dried-apples_178771-263.jpg" class="column-5" ></a>
         <h4>甜梨乾</h4>
         <p class="price">$120</p>
       </div>
-      <div class="column12 column-1">
-       <a href="productpage_3.html"><img src="https://image.freepik.com/free-photo/dried-banana-slices-inside-banana-peel_106233-432.jpg"></a>
+      <div class="column12 column-1" data-aos="fade-left" data-aos-duration="2000">
+       <a href="productpage_3.html" rel="float-shadow" class="button float-shadow"><img src="https://image.freepik.com/free-photo/dried-banana-slices-inside-banana-peel_106233-432.jpg" class="column-5"></a>
         <h4>香蕉乾</h4>
         <p class="price">$120</p>
       </div>
-      <div class="column12 column-1">
-       <a href="productpage_3.html"><img src="https://image.freepik.com/free-photo/dried-goji-berries-wooden-spoon-brown-background_33804-123.jpg"></a> 
+      <div class="column12 column-1" data-aos="fade-left" data-aos-duration="2000">
+       <a href="productpage_3.html" rel="float-shadow" class="button float-shadow"><img src="https://image.freepik.com/free-photo/dried-goji-berries-wooden-spoon-brown-background_33804-123.jpg" class="column-5"></a> 
         <h4>紅棗乾</h4>
         <p class="price">$120</p>
       </div>
-      <div class="column12 column-1">
-        <a href="#"><img src="https://image.freepik.com/free-photo/top-view-dried-pineapple-slices-isolated-white-background_141793-9056.jpg"></a>
+      <div class="column12 column-1" data-aos="fade-left" data-aos-duration="2000">
+        <a href="#" rel="float-shadow" class="button float-shadow"><img src="https://image.freepik.com/free-photo/top-view-dried-pineapple-slices-isolated-white-background_141793-9056.jpg" class="column-5"></a>
         <h4>鳳梨乾</h4>
         <p class="price">$120</p>
       </div>
-      <div class="column12 column-1">
-        <a href="#"><img src="https://image.freepik.com/free-photo/dry-apple-bowl-wooden-background-top-view-space-text_176474-7664.jpg"></a>
+      <div class="column12 column-1" data-aos="fade-left" data-aos-duration="2000">
+        <a href="#" rel="float-shadow" class="button float-shadow"><img src="https://image.freepik.com/free-photo/dry-apple-bowl-wooden-background-top-view-space-text_176474-7664.jpg" class="column-5"></a>
         <h4>蘋果乾</h4>
         <p class="price">$120</p>
       </div>
-       <div class="column12 column-1">
-        <a href="#"><img src="https://image.freepik.com/free-photo/background-dried-fruits-black-yellow-raisins-top-view_141793-7645.jpg"></a>
+       <div class="column12 column-1" data-aos="fade-left" data-aos-duration="2000">
+        <a href="#" rel="float-shadow" class="button float-shadow"><img src="https://image.freepik.com/free-photo/background-dried-fruits-black-yellow-raisins-top-view_141793-7645.jpg" class="column-5"></a>
         <h4>葡萄乾</h4>
         <p class="price">$120</p>
       </div>
-       <div class="column12 column-1">
-       <a href="#"><img src="https://image.freepik.com/free-photo/side-view-dried-strawberry-plate-round-tray_176474-3071.jpg"></a>
+       <div class="column12 column-1" data-aos="fade-left" data-aos-duration="2000">
+       <a href="#" rel="float-shadow" class="button float-shadow"><img src="https://image.freepik.com/free-photo/side-view-dried-strawberry-plate-round-tray_176474-3071.jpg" class="column-5"></a>
         <h4>草莓乾</h4>
         <p class="price">$120</p>
       </div> 
     </div>
+
+
+     <img src="img/綠花.png" alt="" class="flower">
 <!------------------------------------->
 <footer>
   <div class="grid">
@@ -98,6 +119,9 @@
   </div>
 </footer>
 
-
+<script>
+  
+  AOS.init()
+</script>
 </body>
 </html>

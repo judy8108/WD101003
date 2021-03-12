@@ -96,31 +96,65 @@ footer {
   text-align: center;
 }
 
-/*-------------------------------------------------------*/
 
-.flex-nav ul {
-  position: absolute;
+/*-------------------------------------------------------*/
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
   z-index: 1;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  display: none;
-  width: 100%;
+  top: 0;
   left: 0;
-  padding: 1rem;
-  background: #fff;
-  border-radius:30px;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
   text-align: center;
+  margin-top: 30px;
 }
-.flex-nav ul.notmove {
-  display: flex;
+
+.overlay a {
+  padding: 2px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
 }
-.flex-nav ul li {
-  margin: 0.5rem 0;
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
 }
+
+.overlay .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 45px;
+  font-size: 60px;
+}
+
+span{
+  /*margin-left: 2%;*/
+  padding-left: 3%;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 10px;
+  right: 35px;
+  }
+}
+
+
+/*-------------------------------------------------------*/
 
 #logo{
   color: #333;
@@ -128,12 +162,20 @@ footer {
   text-transform: uppercase;
 }
 
+.logo3{
+  position: relative;
+  margin: 0 42.5% 0 42.5%;
+  top:30px;
+}
+
+
 .breadcrumb-list {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
   margin: 1rem 0 0 0;
   list-style: none;
+  margin-left: 3%;
 }
 .breadcrumb-list li {
   font-size: 0.85rem;
@@ -169,32 +211,55 @@ footer {
 .outer2 {
   display: inline-flex;
   text-align:center;
-  margin: 0 auto;
- /* padding:60px;*/
-  margin-left: 21%;
-  padding: 10px 20px
+  margin:0 21%;
+  /*padding: 10px 20px*/
 }
 
 .outer2 img{
   border-radius:98%;
   width:20 100%
   height: auto;
+  padding:0 10%;
 }
 
 
-.outer2 img:hover {
-  box-shadow: 0px 2px 25px 0px rgba(0, 0, 0, 0.2), 0px 2px 5px 0px rgba(0, 0, 0, 0.2)
-  }
-.outer2 img:active {
-  box-shadow: inset 0px 1px 8px 0px rgba(0, 0, 0, 0.2), inset 0px 0.5px 1px 0px rgba(0, 0, 0, 0.3);
-  border: none; 
- }
-.outer3 {
-  margin-right:20px;
-  }
 
-  .outer5 {
-  margin-left: 20px;
+@keyframes wobble-vertical {
+  16.65% {
+    transform: translateY(8px);
+  }
+  33.3% {
+    transform: translateY(-6px);
+  }
+  49.95% {
+    transform: translateY(4px);
+  }
+  66.6% {
+    transform: translateY(-2px);
+  }
+  83.25% {
+    transform: translateY(1px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.wobble-vertical {
+  display: inline-block;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.wobble-vertical:hover {
+  animation-name: wobble-vertical;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+
+.outer3 {
+  padding:0 2px;
+  margin-right:20px;
   }
 
 .container1 {
@@ -251,32 +316,10 @@ footer {
   animation-iteration-count: 1;
 }
 
-@media (min-width: 62rem) {
-
-  .notmove {
-    display: block;
-    margin: 0 0 8px 0;
-  }
+@media (min-width: 768px) {
 
   nav ul {
     justify-content: flex-end;
-  }
-
-  .flex-nav {
-    display: block;
-  }
-  .flex-nav ul {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    justify-content: flex-end;
-  }
-  .flex-nav ul li {
-    font-size: 18px;
-    margin: 0 20px 0 0;
-  }
-  .flex-nav ul li:nth-child(8) {
-    margin: 0;
   }
 }
 
@@ -297,17 +340,31 @@ footer {
   }
 }
 
-@media (min-width: 62rem) {
+@media (min-width: 768px) {
   .column-3 {
     flex-basis: 50%;
     max-width: 50%;
   }
 }
 
-  @media (min-width: 62rem) {
+  @media (min-width: 768px) {
 
     .column-3{
       grid-column-start: span 6;
       grid-column-end: span 6;
     }
+}
+
+@media (max-width: 767px){
+  .outer1 img{
+   width: 40%;
+    }
+
+  .outer2 img{
+    min-width: 40%
+    }  
+  .outer2 {
+    display: inline-flex;
+    text-align:center;
+    margin:0 5%;  
 }

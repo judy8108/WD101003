@@ -4,43 +4,56 @@
   <meta charset="UTF-8">
   <title>mappage</title>
   <link rel="stylesheet" href="style.css" type="css/reset.css">
-  <link rel="stylesheet" href="css/qa_signin_customerservice.css">
+  <link rel="stylesheet" href="css/map.css">
   <link rel="shortcut icon" type="image/x-icon" href="img/icon3.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous"></script>
 
 </head>
 <body>
+  <div><img src="img/logo.png" alt="" class="logo3" width="15%"></div>
   <!------------head---------------->
-<nav class="flex-nav">
-  <div class="container1">
-    <div class="grid menu"><!-- grid -->
-      <div class="column-3">
-        <img src="img/logo.png" alt="landingpage.html" class="logo" width="120px" height="120px">
-      </div>
-      <div class="column-3">
-        <ul>
-          <li class="nav-item"><a href="latestnews.html" rel="wobble-top" class="wobble-top">最新消息</a></li>
-          <li class="nav-item"><a href="productpage_2.html" rel="wobble-top" class="wobble-top">商品</a></li>
-          <li class="nav-item"><a href="customerservice.html" rel="wobble-top" class="wobble-top">客戶服務</a></li>
-          <li class="nav-item"><a href="mappage.html" rel="wobble-top" class="wobble-top">門市資訊</a></li>
-                      <li> </li>
-          <li><a href="signin.html" rel="wobble-top" class="wobble-top"><img src="img/會員綠.png" alt="" width="20px" ></a></li>
-          <li><a href="#" rel="wobble-top" class="wobble-top"><img src="img/購物車綠.png" alt="" width="20px"></a></li>
-          <li><a href="#" rel="wobble-top" class="wobble-top"><img src="img/搜尋綠.png" alt="" width="20px"></a></li>
-        </ul>
-      </div>
-    </div>
+<div id="mimi" class="overlay">
+  <a href="#" class="closebtn" onclick="miNav()">&times;</a>
+   <div class="overlay-content">
+   
+    <a href="latestnews.html">Home</a>
+   
+    <a href="#" class="closebtn2">product
+
+    <a href="qa.html">customer QA</a>
+   
+    <a href="customerservice.html">message</a>
+   
+    <a href="mappage.html">門市地址</a>
+   
+    <a href="#" rel="wobble-top" class="wobble-top"><img src="img/搜尋.png" alt="" width="20px">
+    
+    <a href="signin.html" rel="wobble-top" class="wobble-top"><img src="img/會員.png" alt="" width="20px" ></a>
+    
+    <a href="#" rel="wobble-top" class="wobble-top"><img src="img/購物車.png" alt="" width="20px"></a>
   </div>
-</nav>
- 
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<script>
+
+function openNav() {
+  document.getElementById("mimi").style.width = "100%";
+}
+
+function miNav() {
+  document.getElementById("mimi").style.width = "0%";
+}
+</script>
      <!------------breadcrumb 格線系統------------>
     <div class="grid second-nav"><!-- grid -->
       <div class="column12">
         <nav>
           <ol class="breadcrumb-list">
-            <li class="breadcrumb-item"><a href="latestnews.html">最新消息</a></li>
-            <li class="breadcrumb-item notmove">門市資訊</li>
+            <li class="breadcrumb-item"><a href="latestnews.html">Home</a></li>
+            <li class="breadcrumb-item notmove">門市地址</li>
           </ol>
         </nav>
       </div>
@@ -48,15 +61,15 @@
 
  <h2 class="demo" data-aos="fade-up" data-aos-duration="2000">店內環境</h2>
 <div class="hover column" data-aos="fade-up" data-aos-duration="1000">
-  <div>
+  <div class="demo2">
     <figure><img src="https://img.ltn.com.tw/Upload/house/page/2020/05/29/200529-9730-1-1fS8j.jpg" /></figure>
     <span>最近捷運菜寮站</span>
   </div>
-  <div>
+  <div class="demo2">
     <figure><img src="https://pic.pimg.tw/chungpu/1510043246-3201841896_n.png" /></figure>
     <span>廚房環境</span>
   </div>
-  <div>
+  <div class="demo2">
     <figure><img src="https://disk.sharelife.tw/gallery/56601-56074/b616310320542515.jpg" /></figure>
     <span>門市環境</span>
   </div>
@@ -65,7 +78,7 @@
 <br>
 
 <div class="basic transition" data-aos="fade-up" data-aos-duration="2000">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d903.5627056878017!2d121.49337582913881!3d25.059486498997554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a91e7cc91e29%3A0x47dbe569a0074ecd!2zMjQx5paw5YyX5biC5LiJ6YeN5Y2A5Lit5q2j5Y2X6LevNTHomZ8!5e0!3m2!1szh-TW!2stw!4v1614847740996!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d903.5627056878017!2d121.49337582913881!3d25.059486498997554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a91e7cc91e29%3A0x47dbe569a0074ecd!2zMjQx5paw5YyX5biC5LiJ6YeN5Y2A5Lit5q2j5Y2X6LevNTHomZ8!5e0!3m2!1szh-TW!2stw!4v1614847740996!5m2!1szh-TW!2stw"  style="border:0;" allowfullscreen="" loading="lazy" ></iframe>
     <h2>門市地址</h2>
     <p>* 由於我們小夥伴人數不多, 為趕訂單會不定期開放門市購買, 購買前建議先來電詢問或查看Facebook每日狀態, 防止各位小主人特地前來卻閉門撲空的狀況.  <br>
     <br>

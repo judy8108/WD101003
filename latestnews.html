@@ -8,32 +8,55 @@
   <link rel="shortcut icon" type="image/x-icon" href="img/icon3.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous"></script>
-
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+ <link rel='stylesheet' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/43033/owl.carousel.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Merriweather'><link rel="stylesheet" href="./style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 </head>
 <body>
+
+
+<!--還沒解決的問題-輪播圖層次---------- -->
+   <div><img src="img/logo.png" alt="" class="logo3" width="15%"></div>
   <!------------head---------------->
-<nav class="flex-nav">
-  <div class="container1">
-    <div class="grid menu"><!-- grid -->
-      <div class="column-3">
-        <img src="img/logo.png" alt="#" class="logo" width="120px" height="120px">
-      </div>
-      <div class="column-3">
-         <ul>
-          <li class="nav-item"><a href="latestnews.html" rel="wobble-top" class="wobble-top">最新消息</a></li>
-          <li class="nav-item"><a href="productpage_2.html" rel="wobble-top" class="wobble-top">商品</a></li>
-          <li class="nav-item"><a href="customerservice.html" rel="wobble-top" class="wobble-top">客戶服務</a></li>
-          <li class="nav-item"><a href="mappage.html" rel="wobble-top" class="wobble-top">門市資訊</a></li>
-                      <li> </li>
-          <li><a href="signin.html" rel="wobble-top" class="wobble-top"><img src="img/會員綠.png" alt="" width="20px" ></a></li>
-          <li><a href="#" rel="wobble-top" class="wobble-top"><img src="img/購物車綠.png" alt="" width="20px"></a></li>
-          <li><a href="#" rel="wobble-top" class="wobble-top"><img src="img/搜尋綠.png" alt="" width="20px"></a></li>
-        </ul>
-      </div>
-    </div>
+
+<div id="mimi" class="overlay">
+  <a href="#" class="closebtn" onclick="miNav()">&times;</a>
+   <div class="overlay-content">
+   
+    <a href="latestnews.html">Home</a>
+   
+    <a href="productpage_2.html">product</a>
+   
+    <a href="qa.html">customer QA</a>
+   
+    <a href="customerservice.html">message</a>
+   
+    <a href="mappage.html">門市地址</a>
+   
+    <a href="#" rel="wobble-top" class="wobble-top"><img src="img/搜尋.png" alt="" width="20px">
+    
+    <a href="signin.html" rel="wobble-top" class="wobble-top"><img src="img/會員.png" alt="" width="20px" ></a>
+    
+    <a href="#" rel="wobble-top" class="wobble-top"><img src="img/購物車.png" alt="" width="20px"></a>
   </div>
-</nav>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+
+<script>
+
+function openNav() {
+  document.getElementById("mimi").style.width = "100%";
+}
+
+function miNav() {
+  document.getElementById("mimi").style.width = "0%";
+}
+</script>
+
+<!-- ------------------------ -->
  
 <main>
   <div class="container1">
@@ -50,82 +73,76 @@
    <!------------------------------------------>
    
 <div class="about" data-aos="fade-right" data-aos-duration="2000">
-      <h1>TONG FOOD</h1>
+
       <img src="img/三筒照.jpg" alt="" width="450px" >
       <div class="about-text">
         <h2>關於我們</h2>
-        <p>有一天,我家不滿一年的三線寶寶生病了, 我帶去看了幾間名獸醫都說體弱, 盡開一些營養劑給我家的寶寶吃, 但牠並不賞臉, 我想一想, 於是自己查了許多配方, 用天然蔬果, 無添加羊奶粉, 各類五穀搗成粉沫, 製作了各式各樣的食品吸引三線寶寶吃終於在某一天, 牠大嗑了我用各種自製營養粉製成的糊糊, 每天吃, 漸漸長點肉了, 身體也健康了, 於是我打算把這些美味的食品, 分享給有這類困擾的小主人<br>希望我們的毛孩子都能健康長大!  
+        <p>純自製營養代餐粉,嗜口性高,自家萌寵保證,決無添加任何化學物料 
         </p>
       </div>
     </div>
     <br>
     <div class="about2" data-aos="fade-left" data-aos-duration="2000">
-    <h1>Natural<span> moment</span></h1>
       <div class="about-text2">
         <h2>關於每隻住在倉鼠裡的小天使</h2>
          <p>他們來到我們的身邊,用心的關照牠,牠會用生命的全部回報身邊的你,
-          在每一個小天使眼裡,主人就是他的全世界 <br>
-          <br>
-          我們家製作專屬於倉鼠的健康飲食,對於每個年齡階層都有不同的營養配方,
-          讓你家的小天使能陪著你久一點,製造多一點快樂的回憶
+          在每一個小天使眼裡,主人就是他的全世界
         </p>
       </div>
       <img src="img/女孩鼠2.jpg" alt="" width="450px" >
     </div>
     <br>
     <div class="about" data-aos="fade-right" data-aos-duration="2000">
-      <h1>Natural<span> moment</span></h1>
-      <img src="img/女孩鼠2.jpg" alt="" width="450px" >
+      <img src="img/吃飯鼠.jpg" alt="" width="450px" >
       <div class="about-text">
-        <h2>關於每隻住在倉鼠裡的小天使</h2>
-        <p>他們來到我們的身邊,用心的關照牠,牠會用生命的全部回報身邊的你,
-          在每一個小天使眼裡,主人就是他的全世界 <br>
-          <br>
+        <h2>用心照顧飲食</h2>
+        <p>
           我們家製作專屬於倉鼠的健康飲食,對於每個年齡階層都有不同的營養配方,
           讓你家的小天使能陪著你久一點,製造多一點快樂的回憶
         </p>
       </div>
     </div>
     <br>
-  <div class="about2" data-aos="fade-left" data-aos-duration="2000">
-    <h1>Natural<span> moment</span></h1>
-      <div class="about-text2">
-        <h2>關於每隻住在倉鼠裡的小天使</h2>
-         <p>他們來到我們的身邊,用心的關照牠,牠會用生命的全部回報身邊的你,
-          在每一個小天使眼裡,主人就是他的全世界 <br>
-          <br>
-          我們家製作專屬於倉鼠的健康飲食,對於每個年齡階層都有不同的營養配方,
-          讓你家的小天使能陪著你久一點,製造多一點快樂的回憶
-        </p>
-      </div>
-      <img src="img/女孩鼠2.jpg" alt="" width="450px" >
-    </div>
-
-
-     <!-- ===================================== -->
-    <div class="grid products2">
-      <div class="column12">
-       <h3> <img src="img/star.png" alt="">明星商品<img src="img/star.png" alt=""></h3>
-      </div>
-      <div class="column12 column-1">
-        <a href="productpage_3.html"rel="outline-outward" class=" outline-outward"><img src="https://image.freepik.com/free-photo/slices-dried-apples_178771-263.jpg"></a>
-        <h4>甜梨乾</h4>
-        <p class="price">$120</p>
-      </div>
-      <div class="column12 column-1">
-        <a href="productpage_3.html"rel="outline-outward" class=" outline-outward"><img src="https://image.freepik.com/free-photo/dried-banana-slices-inside-banana-peel_106233-432.jpg"></a>
-        <h4>香蕉乾</h4>
-        <p class="price">$120</p>
-      </div>
-      <div class="column12 column-1">
-        <a href="productpage_3.html"rel="outline-outward" class=" outline-outward"><img src="https://image.freepik.com/free-photo/dried-goji-berries-wooden-spoon-brown-background_33804-123.jpg"></a>
-        <h4>紅棗乾</h4>
-        <p class="price">$120</p>
-      </div>
-    </div>
+    <h4>種類眾多 可依照健康狀況調配</h4>
+<div class="owl-carousel" data-aos="fade-up" data-aos-duration="2000">
+    <div class="item">
+      <a href="#">
+      <img src="https://image.freepik.com/free-photo/multicolor-dried-seed-background-different-dry-legumes-eating-healthy_3236-1826.jpg" alt="" / >
+        
+      </header><!-- /header -->>
+      </a>
   </div>
+      <div class="item black">
+      <a href="#">
+      <img src="https://image.freepik.com/free-photo/side-view-dried-apple-slices-white-background_141793-7775.jpg" alt="" />
+      </a>
+  </div>
+      <div class="item">
+      <a href="#">
+      <img src="https://image.freepik.com/free-photo/assorted-nuts-dried-fruits-wooden-table-top-view-healthy-snack-bowls-food-background_84485-430.jpg" alt="" />
+      </a>
+  </div>
+      <div class="item black">
+      <a href="#">
+      <img src="https://image.freepik.com/free-photo/word-matcha-made-powdered-matcha-green-tea-bamboo-spoon-white-copy_114579-3906.jpg" alt="" />
+      </a>
+  </div>
+      <div class="item">
+      <a href="#">
+      <img src="https://image.freepik.com/free-photo/high-angle-bowl-with-powder-two-scoops_23-2148774912.jpg" alt="" />
+      </a>
+  </div>
+   <div class="item black">
+      <a href="#">
+      <img src="https://image.freepik.com/free-photo/side-view-hamster-smelling-hazelnut-dark-brown_176474-7539.jpg" alt="" />
+      </a>
+     </div>
+   </div>
+ </div>
 </main>
+
 <!----------------footer------------------------>
+
 <footer>
   <div class="grid">
     <div class="column12">
@@ -134,9 +151,13 @@
     </div>
   </div>
 </footer>
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/43033/owl.carousel.min.js'></script><script  src="js/script.js"></script>
 <script>
-  
   AOS.init()
 </script>
+<script  src="./js/script.js"></script>
 </body>
 </html>

@@ -133,7 +133,7 @@ footer {
 
 .overlay .closebtn {
   position: absolute;
-  top: 10px;
+  top: -20%;
   right: 45px;
   font-size: 60px;
 }
@@ -152,31 +152,84 @@ span{
 }
 
 
-/*-------------------------------------------------------*/
+/*--------------食物軸------------------*/
 
-/*.flex-nav ul {
-  position: absolute;
-  z-index: 1;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  display: none;
-  width: 100%;
-  left: 0;
-  padding: 1rem;
-  background: #fff;
-  border-radius:30px;
-  text-align: center;
-}
-.flex-nav ul.notmove {
-  display: flex;
-}
-.flex-nav ul li {
-  margin: 0.5rem 0;
-}*/
+
+@media (min-width: 768px){
+.food{
+ 
+
+ }
+
+
+.food img{
+  position: fixed;
+  width: 30%;
+  bottom: 0%;
+  right: -70px;
+ }
+
+.food2 img{
+  position: fixed;
+  width: 20%;
+  bottom: 0%;
+  right: 150px;
+ }
+ .food3 img{
+  position: fixed;
+  width: 20%;
+  bottom: 0%;
+  right: 150px;
+ } 
+  .food4 img{
+  position: fixed;
+  width: 20%;
+  bottom: 0%;
+  right: 150px;
+ } 
+   .food4 img{
+  position: fixed;
+  width: 60%;
+  bottom: 0%;
+  right: 350px;
+ }  
+} 
+
+@media (max-width: 767px)and(max-height: {
+.food{
+ 
+
+ }
+
+
+.food img{
+  position: fixed;
+  width: 70%;
+  bottom: 0%; 
+ }
+
+ .food2 img{
+  position: fixed;
+  width: 50%;
+  bottom: 0%;
+ }
+ .food3 img{
+  position: fixed;
+  width: 60%;
+  bottom: 0%;
+ } 
+  .food4 img{
+  position: fixed;
+  width: 60%;
+  bottom: 0%;
+ } 
+   .food4 img{
+  position: fixed;
+  width: 60%;
+  bottom: 0%;
+ } 
+} 
+/*-------------------------------------------------------*/
 
 #logo{
   color: #333;
@@ -284,7 +337,7 @@ span{
   animation-iteration-count: 1;
 }
 
-@media (min-width: 62rem) {
+@media (min-width: 768px) {
 
   nav ul {
     justify-content: flex-end;
@@ -325,17 +378,18 @@ span{
   }
 }
 
-@media (min-width: 62rem) {
+@media (min-width: 768px) {
 
   .column-3 {
     flex-basis: 50%;
     max-width: 50%;
   }
 }
- @media (min-width: 62rem) {
+ @media (min-width: 768px) {
 
    .column-3{
       grid-column-start: span 6;
       grid-column-end: span 6;
     }
 }
+

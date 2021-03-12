@@ -8,32 +8,57 @@
   <link rel="shortcut icon" type="image/x-icon" href="img/icon3.ico">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
 
 </head>
 <body>
   <!------------head---------------->
-<nav class="flex-nav">  
-    <div class="grid menu"><!-- grid -->
-      <div class="column-3">
-        <img src="img/logo.png" alt="landingpage.html" class="logo" width="120px" height="120px">
-      </div>
-      <div class="column-3">
-         <ul>
-          <li class="nav-item"><a href="landingpage.html" rel="wobble-top" class="wobble-top">首頁</a></li>
-          <li class="nav-item"><a href="latestnews.html" rel="wobble-top" class="wobble-top">最新消息</a></li>
-          <li class="nav-item"><a href="productpage_2.html" rel="wobble-top" class="wobble-top">商品</a></li>
-          <li class="nav-item"><a href="customerservice.html" rel="wobble-top" class="wobble-top">客戶服務</a></li>
-          <li class="nav-item"><a href="mappage.html" rel="wobble-top" class="wobble-top">門市資訊</a></li>
-                      <li> </li>
-          <li><a href="signin.html" rel="wobble-top" class="wobble-top"><img src="img/會員綠.png" alt="" width="20px" ></a></li>
-          <li><a href="#" rel="wobble-top" class="wobble-top"><img src="img/購物車綠.png" alt="" width="20px"></a></li>
-          <li><a href="#" rel="wobble-top" class="wobble-top"><img src="img/搜尋綠.png" alt="" width="20px"></a></li>
-        </ul>
-      </div>
-    </div>
-</nav>
- 
+<div id="mimi" class="overlay">
+  <ul class="overlay-content"><a href="#" class="closebtn" onclick="miNav()">&times;</a>
+   
+    <li><a href="latestnews.html">Home</a></li>
+   
+    <li><a href="productpage_2.html">product</a></li>
+   
+    <li><a href="qa.html">customer QA</a></li>
+   
+    <li><a href="customerservice.html">message</a></li>
+   
+    <li><a href="mappage.html">門市地址</a></li>
+   
+    <li><a href="#" rel="wobble-top" class="wobble-top"><img src="img/搜尋.png" alt="" width="20px"></li>
+    
+    <li><a href="signin.html" rel="wobble-top" class="wobble-top"><img src="img/會員.png" alt="" width="20px" ></a></li>
+    
+    <li><a href="#" rel="wobble-top" class="wobble-top"><img src="img/購物車.png" alt="" width="20px"></a></li>
+  </ul>
+</div>
 
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+<!-- <img src="img/logo.png" alt="" width="10%" class="logo2"> -->
+
+<script>
+
+function openNav() {
+  document.getElementById("mimi").style.width = "100%";
+}
+
+function miNav() {
+  document.getElementById("mimi").style.width = "0%";
+}
+</script>
+
+
+<div class="food2"><img src="img/梨乾.png" alt=""></div>
+<div class="food5"><img src="img/蒲公英草羊奶餅@2x.png" alt=""></div>
+<div class="food3"><img src="img/草莓乾.png" alt=""></div>
+<div class="food"><img src="img/乾燥蛋黃.png" alt=""></div>
+<div class="food4"><img src="img/營養糊糊.png" alt=""></div>
+<!-- <img src="img/乾燥蛋黃.png" alt="" class="food2">
+<img src="img/乾燥蛋黃.png" alt="" class="food3">
+<img src="img/乾燥蛋黃.png" alt="" class="food4">
+<img src="img/乾燥蛋黃.png" alt="" class="food5">
+ -->
 
 <div class="biglogo" data-aos="fade-up" data-aos-duration="2000"><a href="latestnews.html"rel="wobble-horizontal" class="button wobble-horizontal"><img src="img/主LOGO.png" alt=""></a></div>
 
@@ -50,8 +75,23 @@
   </div>
 </footer> -->
 
+
 <script>
-  
+new TweenMax('.food', 3, {y:500, ease:Bounce.easeOut 
+});
+new TweenMax('.food2', 4, {y:500, ease:Bounce.easeOut 
+});
+new TweenMax('.food3', 2, {y:500, ease:Bounce.easeOut 
+});
+new TweenMax('.food4', 3, {y:500, ease:Bounce.easeOut 
+});
+new TweenMax('.food5', 4, {y:500, ease:Bounce.easeOut 
+});
+
+</script>
+
+
+<script>
   AOS.init()
 </script>
 </body>
