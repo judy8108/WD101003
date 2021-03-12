@@ -262,7 +262,7 @@ figure:hover+span {
 .menu1{
   /*margin-left: 2%;*/
   padding-left: 3%;
-  font-size: 60px;
+  font-size: 40px;
 }
 
 @media screen and (max-height: 450px) {
@@ -598,6 +598,18 @@ figure img{
 
 .menu1{
   font-size: 60px;
+}
+
+.demo{
+  display: none;
+}
+
+.hover .column{
+  display: none;
+}
+
+.demo2{
+  display: none;
 }
 
 }
