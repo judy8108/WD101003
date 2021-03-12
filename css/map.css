@@ -259,10 +259,10 @@ figure:hover+span {
   font-size: 60px;
 }
 
-span{
+.menu1{
   /*margin-left: 2%;*/
   padding-left: 3%;
-  font-size: 40px;
+  font-size: 60px;
 }
 
 @media screen and (max-height: 450px) {
