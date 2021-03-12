@@ -139,7 +139,7 @@ footer {
   font-size: 60px;
 }
 
-span{
+ .Menu1{
   margin-left: 2%;
 }
 
@@ -156,86 +156,9 @@ span{
 /*--------------食物軸------------------*/
 
 
-@media (min-width: 768px){
-.food{
+
  
 
- }
-
-
-.food img{
-  position: fixed;
-  width: 30%;
-  bottom: 0%;
-  right: -70px;
- }
-
-.food2 img{
-  position: fixed;
-  width: 20%;
-  bottom: 0%;
-  right: 150px;
- }
- .food3 img{
-  position: fixed;
-  width: 20%;
-  bottom: 0%;
-  right: 150px;
- } 
-  .food4 img{
-  position: fixed;
-  width: 20%;
-  bottom: 0%;
-  right: 150px;
- } 
-   .food4 img{
-  position: fixed;
-  width: 60%;
-  bottom: 0%;
-  right: 350px;
- }  
-} 
-
-@media (max-width: 767px){
-.food{
- 
-
- }
-
-
-.food img{
-  position: fixed;
-  min-width:767px;
-  
-
- }
-
- .food2 img{
-  position: fixed;
-  width: 50%;
-  bottom: -20%;
-  right: 20%;
-
- }
- .food3 img{
-  position: fixed;
-  width: 60%;
-  bottom: 0%;
- 
- } 
-  .food4 img{
-  position: fixed;
-  width: 60%;
-  bottom: 0%;
- 
- } 
-   .food5 img{
-  position: fixed;
-  width: 60%;
-  bottom: 0%;
-
- } 
-} 
 /*-------------------------------------------------------*/
 
 #logo{
@@ -385,18 +308,46 @@ span{
   }
 }
 
-@media (min-width: 768px) {
-
-  .column-3 {
-    flex-basis: 50%;
-    max-width: 50%;
+@media screen and (max-width: 1200px) {
+  .Menu1{
+    font-size: 40px;
   }
-}
- @media (min-width: 768px) {
+.breadcrumb-list li{
+    font-size: 18px;
+  }
 
-   .column-3{
-      grid-column-start: span 6;
-      grid-column-end: span 6;
-    }
+  .biglogo img{
+  max-width: 45%;
+  height: auto;
+  font-size: 1.125rem;
+  text-align: center;
 }
-
+}
+@media screen and (max-width: 992px) {
+  .Menu1{
+    font-size: 50px;
+  }
+.breadcrumb-list li{
+    font-size: 22px;
+  }
+.biglogo img{
+  max-width: 50%;
+  height: auto;
+  font-size: 1.125rem;
+  text-align: center;
+}  
+}
+@media screen and (max-width: 768px) {
+   .Menu1{
+    font-size: 60px;
+  }
+.breadcrumb-list li{
+    font-size: 25px;
+  }
+.biglogo img{
+  max-width: 60%;
+  height: auto;
+  font-size: 1.125rem;
+  text-align: center;
+}  
+}
