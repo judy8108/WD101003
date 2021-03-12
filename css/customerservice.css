@@ -413,6 +413,17 @@ figure img{
 	height: 30px;
 }
 
+@media (max-width: 992px){
+  .white-pink{
+    max-width: 700px;
+  }
+  .white-pink h1>span{
+    font-size: 30px;
+  }
+  .white-pink h1{
+    font-size: 40px;
+  }
+}
 /*-----------------------QA頁面------------------*/
 
 .transition{
