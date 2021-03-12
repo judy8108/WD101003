@@ -555,7 +555,7 @@ figure img{
   border-radius:30px;
  }
 }
-@media (max-width: 767px){
+@media (max-width: 992px){
 
 .basic{
   padding:3%;
