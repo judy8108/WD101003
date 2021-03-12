@@ -429,7 +429,7 @@ figure img{
 	margin: -10px -10px 10px -10px;
 	color: #969696;
 }
-.white-pink h1>span {
+.white-pink h1>.Narrate {
 	display: block;
 	font-size: 11px;
 	color: #C4C2C2;
@@ -438,7 +438,7 @@ figure img{
 	display: block;
 	margin: 0px 0px 5px;
 }
-.white-pink label>span {
+.white-pink label>.Narrate{
 	float: left;
 	width: 22%;
 	text-align: right;
@@ -664,7 +664,7 @@ figure img{
   font-size: 10px;
 }
 
-span .menu1 {
+ .menu1 {
   font-size:70px;
  }
 } 
