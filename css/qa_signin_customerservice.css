@@ -199,6 +199,9 @@ figure:hover+span {
 span{
   /*margin-left: 2%;*/
   padding-left: 3%;
+  font-size:20px;
+  cursor:pointer;
+}
 }
 
 @media screen and (max-height: 450px) {
@@ -662,4 +665,7 @@ figure img{
   font-size: 10px;
 }
 
+span {
+  font-size:70px;
+ }
 } 
