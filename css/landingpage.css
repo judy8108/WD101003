@@ -28,6 +28,7 @@ body {
   background-size: cover;
   width: 100%;
   text-rendering: optimizeLegibility;
+  overflow: hidden 
 }
 
 ul {
@@ -195,7 +196,7 @@ span{
  }  
 } 
 
-@media (max-width: 767px)and(max-height: {
+@media (max-width: 767px){
 .food{
  
 
@@ -204,29 +205,35 @@ span{
 
 .food img{
   position: fixed;
-  width: 70%;
-  bottom: 0%; 
+  min-width:767px;
+  
+
  }
 
  .food2 img{
   position: fixed;
   width: 50%;
-  bottom: 0%;
+  bottom: -20%;
+  right: 20%;
+
  }
  .food3 img{
   position: fixed;
   width: 60%;
   bottom: 0%;
+ 
  } 
   .food4 img{
   position: fixed;
   width: 60%;
   bottom: 0%;
+ 
  } 
-   .food4 img{
+   .food5 img{
   position: fixed;
   width: 60%;
   bottom: 0%;
+
  } 
 } 
 /*-------------------------------------------------------*/
