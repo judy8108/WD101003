@@ -516,6 +516,7 @@ figure img{
 .white-pink {
   z-index:15;
   max-width: 80%;
+  max-height: 80%
   background: #FFF;
   padding: 5% ;
   box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
