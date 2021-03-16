@@ -135,6 +135,10 @@ footer {
 
 /*-------------------------------------------------------*/
 
+.box3{
+  margin-left: -89%;
+}
+
 .overlay {
   height: 100%;
   width: 0;
@@ -216,6 +220,10 @@ span{
   margin: 0 auto;
   z-index: 1;
   text-align:center;
+}
+
+.ow0{
+  margin: 0 20%;
 }
 
 .breadcrumb-list {
@@ -546,6 +554,12 @@ span{
   margin: 30px 0 30px;
   padding-left: 45%;
 }
+
+.box3{
+  margin-left: -84%;
+}
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -576,4 +590,7 @@ span{
   margin: 30px 0 30px;
   padding-left: 40%;
  }
+ .box3{
+  margin-left: -70%;
+}
 }
