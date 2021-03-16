@@ -197,7 +197,7 @@ figure:hover+span {
 .menu1{
   /*margin-left: 2%;*/
   padding-left: 3%;
-  font-size:20px;
+  font-size:40px;
   cursor:pointer;
 }
 
@@ -652,6 +652,19 @@ a{color:inherit;text-decoration:none}
   -webkit-box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
 }
 
+.box5{
+  width: 100%;
+  background: #FFF;
+  height: 40%;
+  margin:auto;
+}
+
+.box5 h4{
+  text-align: center;
+  margin:auto;
+  box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
+  -webkit-box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
+}
 /*----------------------*/
 
 .basic{
