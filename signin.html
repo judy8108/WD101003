@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>signin</title>
   <link rel="stylesheet" href="style.css" type="css/reset.css">
-  <link rel="stylesheet" href="./css/qa_signin_customerservice.css">
+  <link rel="stylesheet" href="./css/qa_signin.css">
   <link rel="shortcut icon" type="image/x-icon" href="img/icon3.ico">
 
 </head>
@@ -36,7 +36,7 @@
 </div>
 
 
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+<span class="menu1" onclick="openNav()">&#9776;</span>
 
 
 <script>
@@ -66,34 +66,71 @@ function miNav() {
 <!-- ---------表單-------------------- -->
 
     <br>
-    <br>
-    <br>
-	<form action="" method="post" class="white-pink">
-		<h1>登入
-		</h1>
-		
-		<label>
-			<span>姓名 :</span>
-			<input id="name" type="text" name="name" placeholder="例:王小明" required/>
-		</label>
-		<label>
-			<span>信箱 :</span>
-			<input id="email" type="email" name="email" placeholder="例:XXX@gmail.com" required/>
-		</label>
-		<label>
-			<span>密碼:</span>
-			<input id="email" type="email" name="email" placeholder="例:XXXXXXX" required/>
-		</label>
-	
-			<button>確認</button><a href="">忘記密碼?</a>
-		</label>
-	</form>
+   <br>
+<br>
+
+<div class="login-wrap" data-aos="fade-up" data-aos-duration="2000">
+  <div class="login-html" data-aos="fade-up" data-aos-duration="2000">
+    <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">登入</label>
+    <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">註冊</label>
+    <div class="login-form">
+      <div class="sign-in-htm">
+        <div class="group">
+          <label for="user" class="label">帳號</label>
+          <input id="user" type="text" class="input">
+        </div>
+        <div class="group">
+          <label for="pass" class="label">密碼</label>
+          <input id="pass" type="password" class="input" data-type="password">
+        </div>
+        <div class="group">
+          <input id="check" type="checkbox" class="check" checked>
+          <label for="check"><span class="icon"></span>記住我的帳號</label>
+        </div>
+        <div class="group">
+          <input type="submit" class="button" value="登入">
+        </div>
+        <div class="hr"></div>
+        <div class="foot-lnk">
+          <a href="#forgot">忘記密碼?</a>
+        </div>
+      </div>
+      <div class="sign-up-htm">
+        <div class="group">
+          <label for="user" class="label">帳號</label>
+          <input id="user" type="text" class="input">
+        </div>
+        <div class="group">
+          <label for="pass" class="label">密碼</label>
+          <input id="pass" type="password" class="input" data-type="password">
+        </div>
+        <div class="group">
+          <label for="pass" class="label">再輸入一次密碼</label>
+          <input id="pass" type="password" class="input" data-type="password">
+        </div>
+        <div class="group">
+          <label for="pass" class="label">信箱地址</label>
+          <input id="pass" type="text" class="input">
+        </div>
+        <div class="group">
+          <input type="submit" class="button" value="註冊">
+        </div>
+        <div class="hr"></div>
+        <br>
+        <div class="foot-lnk">
+          <label for="tab-1">已經是會員?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <br>
 <br>
-
+<br>
+ <img src="img/綠花.png" alt="" class="flower">
 <div class="box4">
-  <h3>《政策宣導》動物傳染病防治條例第38條之3規定</h3>
+  <h4>《政策宣導》動物傳染病防治條例第38條之3規定</h4>
 <br>
 一、為防治動物傳染病，境外動物或動物產品等應施檢疫物輸入我國，應符合動物檢疫規定，並依規定申請檢疫。擅自輸入應施檢疫物者最高可處7年以下有期徒刑，得併科新臺幣300萬元以下罰金。未依規定申請檢疫者，將課以新臺幣100萬元以下罰鍰，並得按次處罰。<br>
 <br>
@@ -105,15 +142,29 @@ function miNav() {
 <br>
 符合消費者保護法所定義企業經營者之賣家，應遵守消費者保護法第18條及第19條之規範。買家檢視商品時，應維持商品之原狀，以免影響退款權益。<br>
 </div>
+
+<br>
 		<!-- Footer -->
-<footer>
-  <div class="grid">
-    <div class="column12">
-      <p class="copyright">TONG　FOOD<br>
-         @學生個人專題</p>
-    </div>
-  </div>
-</footer>
+
+      <section class="links">
+        <div class="links-inner">
+          <ul>
+            <li><a href="latestnews.html">Home</a></li>
+            <li><a href="productpage_2.html">product</a></li>
+            <li><a href="qa.html">customer QA</a></li>
+            <li><a href="customerservice.html">message</a></li>
+            <li><a href="mappage.html">門市地址</a></li>
+            <li> <section class="follow">
+        <a href="https://facebook.com" rel="wobble-top" class="wobble-top">
+          <img src="https://i.ibb.co/LrVMXNR/social-fb.png" alt="Facebook">
+        </a>
+        <a href="https://twitter.com" rel="wobble-top" class="wobble-top">
+          <img src="https://i.ibb.co/vJvbLwm/social-twitter.png" alt="Twitter">
+        </a>
+      </section>
+          </ul>
+        </div>
+      </section>
         
 
 </div>
