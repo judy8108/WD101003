@@ -624,6 +624,9 @@ input[type=button]:focus{
   height: 1350px;
 }
 
+  .copy {
+   width: 90%;
+  }
   .copy h3 {
   font-size: 3.40em;
   }
