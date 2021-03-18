@@ -1,5 +1,6 @@
 
 @import url("https://fonts.googleapis.com/css?family=Pontano+Sans");
+
 .container1 {
   margin: auto;
   padding: 0 1rem;
@@ -316,6 +317,47 @@ footer {
   margin:0 20px;
   transform:scale(.8);
 }
+
+
+.item2{
+  display: flex;
+  align-items: center;
+  margin-bottom: 70px;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+.item2 h2{ 
+  font-weight: 900;
+  margin-bottom: 1em;
+}
+.item2 p{ 
+  font-weight: 300;
+  line-height: 1.6;
+}
+.item2 .pic{
+  width: 55%;
+  flex-shrink: 0;
+}
+.item2 .pic img{
+  width: 100%;
+  vertical-align: middle;
+}
+.item2 .txt{
+  width: 55%;
+  flex-shrink: 0;
+  padding: 50px 30px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.84);
+  border-radius: 20px;
+   box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
+  -webkit-box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
+}
+.item2 > :first-child{
+  margin-right: -10%;
+}
+
+
 @media(max-width:1000px){
   .item{margin:0; transform:scale(.9)}
 }
