@@ -391,22 +391,14 @@ span{
     text-align:center;
     margin:0 5%;  
 }
+}
 @media screen and (max-width: 992px) {
   .Menu1{
     font-size: 50px;
   }
 .breadcrumb-list li{
-    font-size: 22px;
+    font-size: 3rem;
   }
-.frame{
-  width: 40%;
- }
-.home-cards {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
-  margin-bottom: 40px;
- }
 .owl{
   background: #fff;
   padding: 2px;
@@ -417,12 +409,12 @@ span{
  }
 
 .owl h4{
-  font-size: 20px;
+  font-size: 2.28rem;
   text-align:center;
  }  
 
 .links-inner {
-  font-size: 18px;
+  font-size: 35px;
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 20px;
@@ -431,5 +423,17 @@ span{
   grid-gap: 10px;
   align-items: flex-start;
   justify-content: center;
+ }
+ .outer2 img{
+  min-width: 90%
+ } 
+ .outer2{
+  margin: 0 3%;
  }  
+ .outer1 .box1 p{
+  font-size: 2.28rem;
+  font-weight:bold;
+  color: #2E8194;
+  font-family:Microsoft JhengHei;
+}
 }
