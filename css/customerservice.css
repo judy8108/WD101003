@@ -251,7 +251,7 @@ nav li {
 
 .timeline2 {
   position: relative;
-  height: 550px;
+  height: 750px;
 }
 .timeline2:hover .timelineicon {
   -moz-transform: rotate(-45deg);
@@ -310,7 +310,7 @@ nav li {
   -webkit-transition-delay: 0.1s;
   transition: box-shadow 0.5s ease-in 0.1s;
   color: white;
-  font-size: 0.75em;
+  font-size: 1.25em;
   background-color: black;
   display: inline-block;
   margin-bottom: 1.2em;
