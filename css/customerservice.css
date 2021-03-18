@@ -587,7 +587,7 @@ input[type=button]:focus{
     font-size: 40px;
   }
 .breadcrumb-list li{
-    font-size: 22px;
+    font-size: 30px;
   }
 .flower{
   position: fixed;
@@ -621,11 +621,11 @@ input[type=button]:focus{
 
 .timeline2 {
   position: relative;
-  height: 950px;
+  height: 1050px;
 }
 
   .copy h3 {
-  font-size: 2.75em;
+  font-size: 2.40em;
   }
   .copy strong {
   font-weight: 700;
@@ -633,9 +633,20 @@ input[type=button]:focus{
   .copy p:not(.step) {
   padding-bottom: 2em;
   font-size: 2rem;
-}
-
-.step {
+  }
+  .step {
   font-size: 1.75em;
-
+  }
+  .co2{
+  text-align: center;
+  font-size: 2.85rem 
+  }
+  input[type=text], textarea {
+  font-size: 2em;
+  }
+  input[type=button]{
+  font-size: 2em;  
+  }
+  .links-inner {
+  font-size: 28px;
 }
