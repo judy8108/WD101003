@@ -649,4 +649,8 @@ input[type=button]:focus{
   }
   .links-inner {
   font-size: 28px;
+  }
+  input[type=text]:focus, textarea:focus {
+    font-size: 2.2em;
+  }
 }
