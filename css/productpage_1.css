@@ -513,11 +513,12 @@ span{
 }
 @media screen and (max-width: 992px) {
   .Menu1{
-    font-size: 50px;
+    font-size: 60px;
   }
 .breadcrumb-list li{
-    font-size: 22px;
+    font-size: 2rem;
   }
+
 .flower{
   position: fixed;
   display: block;
@@ -538,7 +539,7 @@ span{
 }
 
 .links-inner {
-  font-size: 18px;
+  font-size: 35px;
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 20px;
@@ -558,10 +559,27 @@ span{
 }
 
 .box3{
-  margin-left: -84%;
+  font-size: 25px;
+  width: 20%;
+  margin-left: -70%;
+}
+.owl{
+  font-size: 3rem;
+  width: 40%;
+}
+.ow0 p{
+  font-size: 30px;
+  margin: 10% 10% 80% 10%;  
 }
 
+h4 {
+  font-size: 2.28rem;
+  margin: 1rem 0 0.5rem 0;
+}
 
+p{
+  font-size: 2rem;
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -569,7 +587,7 @@ span{
     font-size: 60px;
   }
   .breadcrumb-list li{
-    font-size: 25px;
+    font-size: 2rem;
   }
 
   .white-pink {
@@ -590,7 +608,7 @@ span{
   align-items: center;
   justify-content: flex-start;
   margin: 30px 0 30px;
-  padding-left: 40%;
+  padding-left: 43%;
  }
  .box3{
   margin-left: -70%;
