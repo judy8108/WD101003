@@ -276,10 +276,6 @@ nav li {
 .copy h3 {
   font-size: 1.75em;
 }
-.copy h4 {
-  font-size: 1.2em;
-  margin-bottom: 1.2em;
-}
 .copy strong {
   font-weight: 700;
 }
@@ -570,6 +566,10 @@ input[type=button]:focus{
     font-size: 25px;
   }
 
+  .timeline2 {
+  position: relative;
+  height: 850px;
+  }
 
 }
 
@@ -618,5 +618,24 @@ input[type=button]:focus{
   align-items: flex-start;
   justify-content: center;
  }  
+
+.timeline2 {
+  position: relative;
+  height: 950px;
+}
+
+  .copy h3 {
+  font-size: 2.75em;
+  }
+  .copy strong {
+  font-weight: 700;
+  }
+  .copy p:not(.step) {
+  padding-bottom: 2em;
+  font-size: 2rem;
+}
+
+.step {
+  font-size: 1.75em;
 
 }
