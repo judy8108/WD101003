@@ -551,20 +551,6 @@ input[type=button]:focus{
 .breadcrumb-list li{
     font-size: 18px;
   }
-
-.white-pink {
-  z-index:15;
-  max-width: 80%;
-  background: #FFF;
-  padding: 5% ;
-  box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
-  -webkit-box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
-  font: 15px Arial, Helvetica, sans-serif;
-  color: #FFF;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-}
-
 }
 @media screen and (max-width: 992px) {
   .menu1{
