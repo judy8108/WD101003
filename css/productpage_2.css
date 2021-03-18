@@ -414,6 +414,8 @@ span{
  }  
 
 .links-inner {
+  position: relative;
+  bottom: 0;
   font-size: 35px;
   max-width: 1100px;
   margin: 0 auto;
