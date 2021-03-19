@@ -621,14 +621,14 @@ input[type=button]:focus{
 
 .timeline2 {
   position: relative;
-  height: 1550px;
+  height: 1250px;
 }
 
   .copy {
    width: 80%;
   }
   .copy h3 {
-  font-size: 2.5em;
+  font-size: 1.89em;
   }
   .copy strong {
   font-weight: 700;
@@ -645,15 +645,15 @@ input[type=button]:focus{
   font-size: 1.89rem 
   }
   input[type=text], textarea {
-  font-size: 0.85em;
+  font-size: 1.2em;
   }
   input[type=button]{
-  font-size: 1em;  
+  font-size: 1.2em;  
   }
   .links-inner {
   font-size: 25px;
   }
   input[type=text]:focus, textarea:focus {
-    font-size: 0.98em;
+    font-size: 1.2em;
   }
 }
