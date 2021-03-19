@@ -557,7 +557,7 @@ footer {
  }
 
 .owl h4{
-  font-size: 1.89rem;
+  font-size: 1.59rem;
   text-align:center;
  }  
 
@@ -589,6 +589,12 @@ footer {
   font-size: 1.59rem; 
   font-weight: 300;
   line-height: 1.6;
+}
+.txt h2{
+  font-size: 1rem;
+}
+.txt p{
+  font-size: 0.9rem;
 }
 }
 @media screen and (max-width: 768px) {
@@ -623,7 +629,7 @@ footer {
   text-align:center;
  }
  .owl h4{
-  font-size: 1.89rem;
+  font-size: 1.59rem;
   text-align:center;
  }
 .links-inner {
