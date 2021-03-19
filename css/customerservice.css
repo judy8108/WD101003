@@ -625,35 +625,35 @@ input[type=button]:focus{
 }
 
   .copy {
-   width: 90%;
+   width: 80%;
   }
   .copy h3 {
-  font-size: 3.40em;
+  font-size: 2.5em;
   }
   .copy strong {
   font-weight: 700;
   }
   .copy p:not(.step) {
   padding-bottom: 2em;
-  font-size: 3rem;
+  font-size: 1.59rem;
   }
   .step {
-  font-size: 2.75em;
+  font-size: 1.55em;
   }
   .co2{
   text-align: center;
-  font-size: 3.85rem 
+  font-size: 1.89rem 
   }
   input[type=text], textarea {
-  font-size: 3em;
+  font-size: 0.85em;
   }
   input[type=button]{
-  font-size: 3em;  
+  font-size: 1em;  
   }
   .links-inner {
-  font-size: 35px;
+  font-size: 25px;
   }
   input[type=text]:focus, textarea:focus {
-    font-size: 2.58em;
+    font-size: 0.98em;
   }
 }
