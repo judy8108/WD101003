@@ -199,7 +199,7 @@ span{
 }
 
 .outer1 img{
-   padding-top: 20px;
+   padding-top:30%;
 }
 
 .outer1 .box1 p{
@@ -212,7 +212,6 @@ span{
   display: inline-flex;
   text-align:center;
   margin:0 21%;
-  /*padding: 10px 20px*/
 }
 
 .outer2 img{
@@ -427,10 +426,12 @@ span{
   justify-content: center;
  }
  .outer2 img{
-  min-width: 90%
+  min-width: 90%;
+
  } 
  .outer2{
   margin: 0 3%;
+  margin-bottom: 30%;
  }  
  .outer1 .box1 p{
   font-size: 2.28rem;
