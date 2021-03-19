@@ -584,7 +584,7 @@ input[type=button]:focus{
 }
 @media screen and (max-width: 992px) {
   .Menu1{
-    font-size: 40px;
+    font-size: 50px;
   }
 .breadcrumb-list li{
     font-size: 30px;
@@ -608,7 +608,7 @@ input[type=button]:focus{
   animation-timing-function: linear; 
 }
 .links-inner {
-  font-size: 18px;
+  font-size: 20px;
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 20px;
@@ -628,21 +628,21 @@ input[type=button]:focus{
    width: 80%;
   }
   .copy h3 {
-  font-size: 1.89em;
+  font-size: 1.59em;
   }
   .copy strong {
   font-weight: 700;
   }
   .copy p:not(.step) {
   padding-bottom: 2em;
-  font-size: 1.59rem;
+  font-size: 1.29rem;
   }
   .step {
   font-size: 1.55em;
   }
   .co2{
   text-align: center;
-  font-size: 1.89rem 
+  font-size: 1.59rem 
   }
   input[type=text], textarea {
   font-size: 1.2em;
