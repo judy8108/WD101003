@@ -46,7 +46,7 @@ a {
   transition: all 0.2s ease;
 }
 a:hover {
-  color:#FFF;
+  color:#A4A2A2;
 }
 a.notmove {
   color: #2E8194;
