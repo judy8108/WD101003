@@ -622,13 +622,13 @@ figure img{
  }
 
 .basic h2{
-  font-size: 1.5em;
+  font-size: 1.2em;
   padding-bottom: 10px;
   color:#2E8194;
 }
 
 .basic p{
-  font-size: 15px;
+  font-size: 1em;
   line-height: 1.6;
   color:#2E8194;
   margin-bottom: 20px;
@@ -659,7 +659,7 @@ figure img{
 }
 
 .links-inner {
-  font-size: 18px;
+  font-size: 25px;
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 20px;
@@ -689,6 +689,12 @@ figure img{
   animation-duration: 10000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear; 
+}
+
+.breadcrumb-list li {
+  font-size: 1.2rem;
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
 }
 
 @keyframes spin {
