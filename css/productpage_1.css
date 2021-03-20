@@ -587,4 +587,29 @@ display: none;
   width: 20%;
   margin-left: -63%;
  }
+ .links-inner {
+  font-size: 35px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+ } 
+ .owl{
+  font-size: 3rem;
+  width: 60%;
+  margin-top: 20%;
+ }
+ .box3{
+  font-size: 25px;
+  width: 30%;
+  margin-left: -55%;
+ } 
+ .ow0 p{
+  font-size: 22px;
+  margin: 20% 10% 40% 10%;  
+ }
 } 

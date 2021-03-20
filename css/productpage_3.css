@@ -208,7 +208,10 @@ span{
   border-radius:30px;
   border-top: 1px solid #e3dddd;
   margin: 20px 0;
-  padding: 10px 10px ;
+  padding: 10px 10px;
+  box-shadow: 5px 2px 4px #A4A2A2;
+  -webkit-box-shadow: 5px 2px 3px #A4A2A2;
+  -moz-box-shadow: 5px 2px 4px #A4A2A2;
 }
 
 .btn {
@@ -500,6 +503,9 @@ span{
   width: 100%;
   transition: opacity 0.3s ease;
   cursor: pointer;
+  box-shadow: 5px 2px 4px #A4A2A2;
+  -webkit-box-shadow: 5px 2px 3px #A4A2A2;
+  -moz-box-shadow: 5px 2px 4px #A4A2A2;
   }
   .grid {
   display: grid;
