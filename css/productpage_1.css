@@ -136,7 +136,8 @@ footer {
 /*-------------------------------------------------------*/
 
 .box3{
-  margin-left: -89%;
+  margin-left: -85%;
+  width: 10%;
 }
 
 .overlay {
@@ -513,10 +514,10 @@ span{
 }
 @media screen and (max-width: 992px) {
   .Menu1{
-    font-size: 70px;
+    font-size: 50px;
   }
 .breadcrumb-list li{
-    font-size: 3rem;
+    font-size: 35px;
   }
 .links-inner {
   font-size: 35px;
@@ -538,10 +539,11 @@ span{
 .owl{
   font-size: 3rem;
   width: 40%;
+  margin-top: 20%;
 }
 .ow0 p{
-  font-size: 30px;
-  margin: 10% 10% 10% 10%;  
+  font-size: 25px;
+  margin: 20% 10% 40% 10%;  
 }
 
 h4 {
@@ -567,10 +569,10 @@ display: none;
 
 @media screen and (max-width: 768px) {
    .menu1{
-    font-size: 60px;
+    font-size: 50px;
   }
   .breadcrumb-list li{
-    font-size: 2rem;
+    font-size: 25px;
   }
 
  .follow {
@@ -578,9 +580,11 @@ display: none;
   align-items: center;
   justify-content: flex-start;
   margin: 30px 0 30px;
-  padding-left: 43%;
+  padding-left: 39%;
  }
  .box3{
-  margin-left: -70%;
-}
-}
+  font-size: 25px;
+  width: 20%;
+  margin-left: -63%;
+ }
+} 

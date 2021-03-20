@@ -188,7 +188,7 @@ span{
   list-style: none;
 }
 .breadcrumb-list li {
-  font-size: 0.85rem;
+  font-size: 1.55rem;
   letter-spacing: 0.125rem;
   text-transform: uppercase;
 }
@@ -359,7 +359,7 @@ span{
 }
 @media screen and (max-width: 1200px) {
   .Menu1{
-    font-size: 40px;
+    font-size: 50px;
   }
 .breadcrumb-list li{
     font-size: 18px;
@@ -370,14 +370,47 @@ span{
 .owl h4{
   font-size: 25px;
   text-align:center;
- }  
+ } 
+  .column-1 {
+    flex-basis: 33%;
+    max-width: 33%;
+  }
+
+  .column-2 {
+    flex-basis: 41%;
+    max-width: 41%;
+  }
+
+  .column-3 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  .column-4 {
+    flex-basis: 58%;
+    max-width: 58%;
+  } 
+    .grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+  }
+  .grid > [class*=column-] {
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .column12 {
+    grid-column-start: span 12;
+    grid-column-end: span 12;
+  }
 }
 @media screen and (max-width: 992px) {
   .Menu1{
-    font-size: 60px;
+    font-size: 50px;
   }
 .breadcrumb-list li{
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
 .frame{
   width: 40%;
@@ -412,23 +445,7 @@ span{
     width: 100%;
     height: 600px;
  }
-/* .image-list {
-    display: flex;
-    overflow: hidden;
-  }
-  .image-list li {
-    margin: 0 8px 0 0;
-    flex-basis: 100%;
-  }
-  .image-list li:nth-child(3) {
-    margin: 0;
-  }
-  .image-list img {
-    height: 10rem;
-    width: 100%;
-    transition: opacity 0.3s ease;
-    cursor: pointer;*/
-  }
+}
   .image-list {
     display: flex;
     overflow: hidden;
@@ -443,10 +460,10 @@ span{
     cursor: pointer;
   }
 
-}
+
 @media screen and (max-width: 768px) {
    .Menu1{
-    font-size: 60px;
+    font-size: 50px;
   }
 .breadcrumb-list li{
     font-size: 25px;
@@ -465,7 +482,35 @@ span{
  }
 .product-image img {
   height: 52vh;
- }  
+ } 
+ .breadcrumb-list li {
+  font-size: 1.45rem;
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+ } 
+.image-list {
+  display: flex;
+  overflow: hidden;
+  }
+.image-list img {
+  height: 100%;
+  }
+.image-list img {
+  height: 10rem;
+  width: 100%;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+  }
+  .grid {
+  display: grid;
+  grid-template-columns: repeat(6, 4fr);
+  grid-template-rows: auto;
+  }
+  .column-4 {
+  grid-column-start: span 12;
+  grid-column-end: span 12;
+ }
+
 }
 
 @media (min-width: 768px) {
@@ -508,7 +553,20 @@ span{
   .image-list img:hover {
     opacity: 0.7;
   }
-
+  .breadcrumb-list li {
+  font-size: 1.4rem;
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+  }
+    .grid {
+  display: grid;
+  grid-template-columns: repeat(12, 4fr);
+  grid-template-rows: auto;
+  }
+  .column-4 {
+  grid-column-start: span 6;
+  grid-column-end: span 6;
+ }
 }
 
 @supports (display: grid) {
@@ -532,12 +590,12 @@ span{
  
   .column-1 {
     flex-basis: 33%;
-    max-width: 33%;
+    max-width: 100%;
   }
 
   .column-2 {
-    flex-basis: 41%;
-    max-width: 41%;
+    flex-basis: 100%;
+    max-width: 100%;
   }
 
   .column-3 {
@@ -546,8 +604,7 @@ span{
   }
 
   .column-4 {
-    flex-basis: 58%;
-    max-width: 58%;
+    display: none;
   }
 }
 
@@ -608,7 +665,7 @@ span{
     }
 
     .column-2 {
-      grid-column-start: span 3;
+      grid-column-start: span 12;
       grid-column-end: span 3;
     }
 
@@ -627,7 +684,7 @@ span{
     }
 
     .column-4 {
-      grid-column-start: span 7;
+     /* grid-column-start: span 7;*/
       grid-column-end: span 7;
     }
     .grid > [class*=column-] {

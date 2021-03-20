@@ -195,6 +195,10 @@ nav li {
 
 .co2{
   text-align: center;
+  background-color: rgba(255, 255, 255, 0.84);
+   box-shadow: 12px 18px 14px #A4A2A2;
+  -webkit-box-shadow: 12px 18px 14px #A4A2A2;
+  -moz-box-shadow: 12px 18px 14px #A4A2A2;
 }
 /*------------------------------------*/
 #logo{
