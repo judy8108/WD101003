@@ -520,7 +520,7 @@ a{color:inherit;text-decoration:none}
   transform:scale(0) rotate(0);
 }
 .login-form .group .check:checked + label{
-  color:#fff;
+  color:#2E8194;
 }
 .login-form .group .check:checked + label .icon{
   background: #2E8194;
