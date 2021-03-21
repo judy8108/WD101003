@@ -242,6 +242,16 @@ span{
 .links li {
   /*line-height: 1.8;*/
 }
+
+.img1{
+  width: 150px;
+  height: 180px;
+  text-align: center;
+  position: relative;
+  margin-left: 60%;
+  margin-bottom: 5%;
+}
+
 @keyframes wobble-vertical {
   16.65% {
     transform: translateY(8px);
@@ -399,7 +409,15 @@ span{
    grid-gap: 10px;
    align-items: flex-start;
    justify-content: center;
- }
+   }
+   .img1{
+   width: 100px;
+   height: 130px;
+   text-align: center;
+   position: relative;
+   margin-left: 70%;
+   margin-bottom: 10%;
+   }
 
 }
 @media screen and (max-width: 992px) {
