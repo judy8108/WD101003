@@ -603,7 +603,7 @@ footer {
 /*--------耳朵---------*/
 .ear {
   position: absolute;
-  left: 13px;
+  left: 21px;
   top: 3px;
   width: 15px;
   height: 15px;
@@ -629,8 +629,8 @@ footer {
   position: absolute;
   left: 8px;
   top: 13px;
-  width: 5px;
-  height: 5px;
+  width: 6px;
+  height: 3px;
   background: black;
   border-radius: 100%;
 }

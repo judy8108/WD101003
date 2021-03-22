@@ -910,7 +910,7 @@ a{color:inherit;text-decoration:none}
 /*--------耳朵---------*/
 .ear {
   position: absolute;
-  left: 13px;
+  left: 21px;
   top: 3px;
   width: 15px;
   height: 15px;
@@ -936,8 +936,8 @@ a{color:inherit;text-decoration:none}
   position: absolute;
   left: 8px;
   top: 13px;
-  width: 5px;
-  height: 5px;
+  width: 6px;
+  height: 3px;
   background: black;
   border-radius: 100%;
 }
