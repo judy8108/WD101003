@@ -15,7 +15,7 @@
 
 body {
   
-  background-image:url(../img/背景圖2.jpg);
+  background-color: #FFF;
 　background-repeat: no-repeat;
   font-family: "Pontano Sans", sans-serif;
   font-size: 1.125rem;
@@ -140,6 +140,7 @@ footer {
 }
 
  .Menu1{
+  font-size: 50px;
   margin-left: 2%;
 }
 
@@ -154,10 +155,84 @@ footer {
 
 
 /*--------------食物軸------------------*/
-
-
-
- 
+.food1{
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  top: 60%;
+  left: 20%;
+}
+.food2{
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  top: 68%;
+  right: -10%;
+}
+.food3{
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  top: 58%;
+  left: -10%;
+}
+.food4{
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  top: 68%;
+  left:40%;
+}
+.food5{
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  top: 40%;
+  left:-20%;
+}
+.food6{
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  bottom:10%;
+  right:-20%;
+}
+.food7{
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  bottom:30%;
+  right:5%;
+}
+.food8{
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  bottom:38%;
+  right:25%;
+}
+.food9{
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  bottom:40%;
+  right:50%;
+}
+.food10{
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  bottom:35%;
+  right:75%;
+  z-index: -1;
+}
+.food11{
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  top: 40%;
+  right: -20%;
+}
 
 /*-------------------------------------------------------*/
 
@@ -339,7 +414,7 @@ span{
 }
 @media screen and (max-width: 768px) {
    .Menu1{
-    font-size: 60px;
+    font-size: 40px;
   }
 .breadcrumb-list li{
     font-size: 25px;
@@ -349,5 +424,82 @@ span{
   height: auto;
   font-size: 1.125rem;
   text-align: center;
-}  
+  }
+ .food1{
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  top: 60%;
+  left: 20%;
+ }
+.food2{
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 70%;
+  right: -10%;
+ }
+.food3{
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  top: 70%;
+  left: -20%;
+ }
+.food4{
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 80%;
+  left:40%;
+ }
+.food5{
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  top: 50%;
+  left:-20%;
+ }
+.food6{
+  position: absolute;
+  width: 70%;
+  height: 100%;
+  bottom:0%;
+  right:-30%;
+ }
+ .food7{
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  bottom:-24%;
+  left:-27%;
+ }
+ .food8{
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  bottom:20%;
+  left:40%;
+  }
+ .food9{
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  bottom:10%;
+  left:10%;
+ }
+ .food10{
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  bottom:20%;
+  right:50%;
+ }
+ .food11{
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  top: 40%;
+  right: -30%;
+}      
 }
