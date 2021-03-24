@@ -17,8 +17,20 @@
   box-sizing: border-box;
 }
 
+.bg{
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  object-fit: cover;
+  width: 1200px;
+  min-width: 100%;
+}
+
 body {
-  background-image:url(../img/背景圖5.jpg);
+  /*要改圖*/
+  background-image:url(../img/背景圖4.jpg);
 　background-repeat: no-repeat;
   font-family: "Pontano Sans", sans-serif;
   font-size: 1.125rem;
@@ -32,6 +44,16 @@ body {
   width: 100%;
   text-rendering: optimizeLegibility;
 }
+
+
+/*@media screen and (min-width: 768px) {
+  .body{
+    background-attachment: fixed;
+    background-size: 1200px auto;
+    background-repeat: no-repeat;
+  }
+}
+*/
 
 ul {
   padding: 0;
@@ -108,7 +130,7 @@ footer {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 99;
   top: 0;
   left: 0;
   background-color: rgb(0,0,0);
@@ -228,6 +250,12 @@ footer {
   -webkit-animation:sucaijiayuan 1s .1s ease both;
   -moz-animation:tada 1s .1s ease both;
 }
+
+.owl_box:hover {
+  -webkit-animation:sucaijiayuan 1s .1s ease both;
+  -moz-animation:tada 1s .1s ease both;
+}
+
 @-webkit-keyframes sucaijiayuan {
   0% {
   -webkit-transform:scale(1)
@@ -308,8 +336,14 @@ footer {
   text-align:center;
 }
 
-.owl h4{
+.owl_box{
+   position:absolute; 
+   right: 10%;
+   top:110%;
+   width: 20%;
 }
+
+
 
 .item{
   opacity:0.4;
@@ -792,6 +826,8 @@ footer {
   bottom: -8px;
   left: -8px;
 }
+
+
 
 @media screen and (max-width: 1200px) {
   .Menu1{
