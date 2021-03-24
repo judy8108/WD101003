@@ -548,42 +548,38 @@ span{
   font-size: 1.125rem;
   margin: auto;
   text-align: center;
-  margin-top: -10%;
+  margin-top: -15%;
   }
  .food1{
   position: absolute;
-  width: 100%;
+  width: 110%;
   height: 100%;
-  top: 50%;
-  left: 40%;
+  top: 78%;
+  left: 20%;
  }
 .food2{
   position: absolute;
   width: 80%;
   height: 100%;
-  top: 90%;
-  right: -35%;
+  top: 80%;
+  right: -25%;
  }
 .food3{
   position: absolute;
-  width: 80%;
+  width: 110%;
   height: 100%;
   top: 70%;
-  left: -20%;
+  left: -40%;
  }
 .food4{
-  position: absolute;
-  width: 80%;
-  height: 100%;
-  top: 90%;
-  left:20%;
+ display: none;
  }
 .food5{
   position: absolute;
   width: 90%;
   height: 100%;
   top: 50%;
-  left:-20%;
+  left:-35%;
  }
 .food6{
   position: absolute;
@@ -604,7 +600,7 @@ span{
   width: 100%;
   height: 100%;
   bottom:12%;
-  left:30%;
+  left:40%;
   }
  .food9{
   position: absolute;
@@ -622,9 +618,9 @@ span{
  }
  .food11{
   position: absolute;
-  width: 40%;
+  width: 70%;
   height: 100%;
-  top: 25%;
-  right: -20%;
+  top: 16%;
+  right: -40%;
  }      
 }
