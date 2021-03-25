@@ -15,7 +15,7 @@
 
 body {
   
-  background-color: #FFF;
+  background-color: #2E8194;
 　background-repeat: no-repeat;
   font-family: "Pontano Sans", sans-serif;
   font-size: 1.125rem;
@@ -140,6 +140,7 @@ footer {
 }
 
  .Menu1{
+  color: #FFF;
   font-size: 50px;
   margin-left: 2%;
 }
@@ -175,99 +176,16 @@ span{
 
 .biglogo{
  position: absolute;
- top: 40%;
- left: 37%
+ top: 30%;
+ /*left: 37%*/
+ left: 38%;
 }
 
 .biglogo img{
-  max-width: 40%;
+  max-width: 30%;
   height: auto;
   font-size: 1.125rem;
   text-align: center;
-}
-
-/*svg{
- display: flex;
-}*/
-
-/*.img0{
-  position: fixed;
-  bottom: 30%;
-  right: 10%;
-}
-
-.img1{
-  width: 100px;
-  height: 130px;
-  text-align: center;
-  position: relative;
-  margin-bottom: 0%;
-  bottom: -20%;
-}*/
-
-.food1{
-  z-index: -1;
-  position: fixed;
-  max-width: 40%;
-  top: -20%;
-  left: -10%;
-}
-
-.food2{
-  z-index: -1;
-  position: fixed;
-  max-width: 60%;
-  top: -30%;
-  right: -20%;
-}
-
-.food3{
-  z-index: -1;
-  position: fixed;
-  max-width: 50%;
-  top: -20%;
-  right: 40%;
-}
-
-.food4{
-  z-index: -1;
-  position: fixed;
-  max-width: 45%;
-  top: -30%;
-  left: 40%;
-}
-
-
-.food5{
-  z-index: -1;
-  position: fixed;
-  max-width: 45%;
-  top: 60%;
-  left: -10%;
-}
-
-.food6{
-  z-index: -1;
-  position: fixed;
-  max-width: 45%;
-  top: 66%;
-  left: 40%;
-}
-
-.food7{
-  z-index: -1;
-  position: fixed;
-  max-width: 55%;
-  top: 50%;
-  right: -20%;
-}
-
-.food8{
-  z-index: -1;
-  position: fixed;
-  max-width: 40%;
-  top: 68%;
-  right: 40%;
 }
 
 
@@ -418,19 +336,6 @@ span{
   font-size: 1.125rem;
   text-align: center;
 }
-.img0{
-  position: fixed;
-  bottom: 20%;
-}
-
-.img1{
-  width: 100px;
-  height: 130px;
-  text-align: center;
-  position: relative;
-  margin-bottom: 0%;
-  bottom: -20%;
-}
 
 }
 @media screen and (max-width: 768px) {
@@ -441,89 +346,11 @@ span{
     font-size: 25px;
   }
 .biglogo img{
-  max-width: 80%;
+  max-width: 50%;
   height: auto;
   font-size: 1.125rem;
   margin: auto;
   text-align: center;
   }
- /*.img0{
-  position: fixed;
-  bottom: 20%;
-  right: 5%;
-}
-
-.img1{
-  width: 100px;
-  height: 130px;
-  text-align: center;
-  position: relative;
-  margin-bottom: 0%;
- }*/
-
-
-.food1{
-  z-index: -1;
-  position: fixed;
-  max-width: 80%;
-  top: -10%;
-  left: -20%;
-}
-
-.food2{
-  z-index: -1;
-  position: fixed;
-  max-width: 100%;
-  top: -10%;
-  right: -30%;
-}
-
-.food3{
-  z-index: -1;
-  position: fixed;
-  max-width: 120%;
-  top: 68%;
-  right: 20%;
-}
-
-.food4{
-  z-index: -1;
-  position: fixed;
-  max-width: 85%;
-  top: 70%;
-  left: 40%;
-}
-
-.food5{
-  z-index: -2;
-  position: fixed;
-  max-width: 85%;
-  top: 40%;
-  left: -30%;
-}
-
-.food6{
-  z-index: -2;
-  position: fixed;
-  max-width: 85%;
-  top: 46%;
-  left: 50%;
-}
-
-.food7{
-  z-index: -3;
-  position: fixed;
-  max-width: 85%;
-  top: 20%;
-  right: -45%;
-}
-
-.food8{
-  z-index: -3;
-  position: fixed;
-  max-width: 80%;
-  top: 48%;
-  right: 10%;
-}
     
 }
