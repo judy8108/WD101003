@@ -45,10 +45,10 @@ a {
   transition: all 0.2s ease;
 }
 a:hover {
-  color: #2E8194;
+  color: #DAD9D4;
 }
 a.notmove {
-  color: #2E8194;
+  color: #DAD9D4;
 }
 
 h1, h2, h3, h4 {
@@ -902,7 +902,7 @@ input[type=button]:focus{
 
 .timeline2 {
   position: relative;
-  height: 1050px;
+  height: 500px;
 }
  .copy {
   width: 70%;
